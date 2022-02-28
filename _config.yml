@@ -112,7 +112,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Resume"
-      icon: "fas fa-fw fa-memo"
+      icon: "fas fa-fw fa-paperclip"
       url: "https://github.com/JoshJingtianWang"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
