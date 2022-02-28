@@ -127,7 +127,7 @@ author:
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/joshjingtianwang/"
     - label: "Resume"
-      icon: "fab fa-fw fa-memo"
+      icon: "fab fa-fw fa-paperclip"
       url: "https://github.com/JoshJingtianWang"
 
 # Site Footer
