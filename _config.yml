@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                    : "minimal-mistakes-jekyll"
+#theme                    : "minimal-mistakes-jekyll"
 #remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -111,9 +111,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+    - label: "Resume"
+      icon: "fas fa-fw fa-memo"
+      url: "https://github.com/JoshJingtianWang"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -128,7 +128,7 @@ author:
       url: "https://www.linkedin.com/in/joshjingtianwang/"
     - label: "Resume"
       icon: "fab fa-fw fa-paperclip"
-      url: "https://github.com/JoshJingtianWang"
+      #url: "https://github.com/JoshJingtianWang"
 
 # Site Footer
 footer:
