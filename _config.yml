@@ -123,11 +123,11 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JoshJingtianWang"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://instagram.com/"
     - label: "Resume"
-      icon: "fab fa-fw fa-book"
+      icon: "fab fa-fw fa-paperclip"
       url: "https://github.com/JoshJingtianWang"
 
 # Site Footer
