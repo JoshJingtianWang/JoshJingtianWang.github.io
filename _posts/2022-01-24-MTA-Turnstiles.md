@@ -5,8 +5,12 @@ category: Projects
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
-classes: wide
-
+#classes: wide
+tagline: "How do we more efficiently schedule trains for the NYC subway?"
+header:
+  overlay_image: /assets/images/MTA/header.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [**The New York Times**](https://www.nytimes.com/)"
 ---
 
 ## Abstract
