@@ -58,7 +58,7 @@ Figure 3
 Figure 3 shows that bad weathers negatively affect MTA ridership, while warmer weather increases ridership. It can also be seen that the data points are clustered into two groups: weekdays and weekends.
 
 Figure 4
-![Figure 4](https://raw.githubusercontent.com/JoshJingtianWang/NYC-MTA-EDA/tree/main/plots/Temperature_MTA.png?raw=true "Figure 4")
+![Figure 4](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/Temperature_MTA.png?raw=true "Figure 4")
 
 Zooming in on the temp vs MTA plot, we see a slight drop of ridership in summer months (June and July). This could be due to the summer break of universities in NYC.
 
