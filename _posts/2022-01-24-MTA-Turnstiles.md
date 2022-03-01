@@ -49,7 +49,7 @@ Next, I looked at the relationship between NYC metro traffic and the usage of ri
 1. Rideshare services have become increasingly popular in the past 6 years, while there seems to be a downward trend of MTA ridership.
 2. Rideshare services seem to recover faster from COVID lockdown.
 
-![Figure 3](https://raw.githubusercontent.com/JoshJingtianWang/NYC-MTA-EDA/tree/main/plots/Weather_MTA.png "Figure 3")
+![Figure 3](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/Weather_MTA.png "Figure 3")
 
 Figure 3 shows that bad weathers negatively affect MTA ridership, while warmer weather increases ridership. It can also be seen that the data points are clustered into two groups: weekdays and weekends.
 
