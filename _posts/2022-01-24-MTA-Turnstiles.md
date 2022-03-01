@@ -39,17 +39,17 @@ The COVID-19 pandemic has been devastating to many sectors of the society – pu
 Data retrieval was be done via SQLite. Data cleaning was be done via Python’s pandas package. Data visualization was done with Python’s matplotlib and seaborn packages.
 
 ## Findings
-![Figure 1](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/COVID_MTA.png?raw=true "Figure 1")
+![Figure 1](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/COVID_MTA_small.png?raw=true "Figure 1")
 
 Figure 1 shows the relationship between NYC metro traffic and NYC COVID case daily cases. It seems that every 're-opening event' (metro traffic waves: 2020-08, 2021-05, 2021-11) is immediately followed a wave of COVID cases. This potentially shows opening up the society leads to the spread of COVID.
 
-![Figure 2](https://raw.githubusercontent.com/JoshJingtianWang/NYC-MTA-EDA/main/plots/Uber_MTA.png "Figure 2")
+![Figure 2](https://raw.githubusercontent.com/JoshJingtianWang/NYC-MTA-EDA/main/plots/Uber_MTA_small.png "Figure 2")
 
 Next, I looked at the relationship between NYC metro traffic and the usage of rideshare services. The conclusions are as follows:
 1. Rideshare services have become increasingly popular in the past 6 years, while there seems to be a downward trend of MTA ridership.
 2. Rideshare services seem to recover faster from COVID lockdown.
 
-![Figure 3](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/Weather_MTA.png "Figure 3")
+![Figure 3](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/Weather_MTA_small.png "Figure 3")
 
 Figure 3 shows that bad weathers negatively affect MTA ridership, while warmer weather increases ridership. It can also be seen that the data points are clustered into two groups: weekdays and weekends.
 
