@@ -53,22 +53,22 @@ Next, I looked at the relationship between NYC metro traffic and the usage of ri
 2. Rideshare services seem to recover faster from COVID lockdown.
 
 Figure 3
-![Figure 3](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/Weather_MTA_small.png "Figure 3")
+![Figure 3](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/Weather_MTA_small.png?raw=true "Figure 3")
 
 Figure 3 shows that bad weathers negatively affect MTA ridership, while warmer weather increases ridership. It can also be seen that the data points are clustered into two groups: weekdays and weekends.
 
 Figure 4
-![Figure 4](https://raw.githubusercontent.com/JoshJingtianWang/NYC-MTA-EDA/tree/main/plots/Temperature_MTA.png "Figure 4")
+![Figure 4](https://raw.githubusercontent.com/JoshJingtianWang/NYC-MTA-EDA/tree/main/plots/Temperature_MTA.png?raw=true "Figure 4")
 
 Zooming in on the temp vs MTA plot, we see a slight drop of ridership in summer months (June and July). This could be due to the summer break of universities in NYC.
 
 Figure 5
-![Figure 5](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/year_heatmap_2019.png "Figure 5")
+![Figure 5](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/year_heatmap_2019.png?raw=true "Figure 5")
 
 In Figure 5, I compiled the daily ridership of 2019 into a [calendar plot](https://calplot.readthedocs.io/en/latest/). We can see the drop of ridership on weekends and holidays when people do not go to work.
 
 Figure 6
-![Figure 6](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/week_heatmap_2019.png "Figure 6")
+![Figure 6](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/plots/week_heatmap_2019.png?raw=true "Figure 6")
 
 Lastly, I looked at the metro ridership of an average week in 2019. It is clear that ridership is low during night time and weekends. Unexpectedly, ridership from 4-8am on weekdays is relatively low. This could be due to the fact that I only used _ENTRIES_ to calculate metro traffic. Because of that, traffic coming from outside of NYC limits in the mornings may not have been considered. In the future, it could be interesting to look at _EXITS_ in the MTA dataset.
 
