@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Is "MoreyBall" "MoneyBall"?"
+title: "Is MoreyBall MoneyBall?"
 category: Projects
 toc: true
 toc_label: "Table of Contents"
