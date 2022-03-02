@@ -11,6 +11,8 @@ header:
   overlay_image: /assets/images/MTA/header.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**The New York Times**](https://www.nytimes.com/)"
+  teaser: /assets/images/MTA/header.jpg
+  og_image: /assets/images/MTA/header.jpg
 ---
 
 ## Abstract

@@ -11,6 +11,8 @@ header:
   overlay_image: /assets/images/MoreyBall/header.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**Getty Images**](https://www.gettyimages.com/)"
+  teaser: /assets/images/MoreyBall/header.jpg
+  og_image: /assets/images/MoreyBall/header.jpg
 ---
 
 ## Abstract
