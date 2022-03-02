@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Is MoreyBall MoneyBall?"
+title: "Is \"MoreyBall\" \"MoneyBall\"?"
 category: Projects
 toc: true
 toc_label: "Table of Contents"
@@ -28,7 +28,7 @@ Advanced stats include the average number of assists, blocks, rebounds etc. of a
 - NBA Shot Location Data (2011-2022)
 https://basketball-reference.com/
 
-![image](/assets/images/MoreyBall/header.jpg)
+![image](/assets/images/MoreyBall/playbyplay.jpg)
 
 Shot location data was scraped on a per-game basis from the play-by-play page ([example page](https://www.basketball-reference.com/boxscores/pbp/202110210MIA.html). Then the shot locations were aggregated by season.
 
