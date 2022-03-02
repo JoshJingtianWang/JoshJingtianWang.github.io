@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Josh Wang"
-  avatar           : "/assets/images/Josh1.jpg"
+  avatar           : "/assets/images/other/Josh1.jpg"
   bio              : "A molecular biologist-turned-data scientist."
   location         : "Irvine, CA"
   email            :
