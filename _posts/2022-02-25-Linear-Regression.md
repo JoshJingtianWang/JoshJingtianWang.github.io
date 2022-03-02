@@ -30,7 +30,7 @@ https://basketball-reference.com/
 
 ![image](/assets/images/MoreyBall/playbyplay.jpg)
 
-Shot location data was scraped on a per-game basis from the play-by-play page ([example page](https://www.basketball-reference.com/boxscores/pbp/202110210MIA.html). Then the shot locations were aggregated by season.
+Shot location data was scraped on a per-game basis from the play-by-play page ([example page](https://www.basketball-reference.com/boxscores/pbp/202110210MIA.html)). Then the shot locations were aggregated by season.
 
 - NBA Playtype Data (2015-2022)
 https://nba.com/
