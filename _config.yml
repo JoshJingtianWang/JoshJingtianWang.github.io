@@ -24,7 +24,7 @@ description              : "JW personal website based on minimalmistakes"
 url                      : 'https://joshjingtianwang.github.io/'
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 'JoshJingtianWang/JoshJingtianWang.github.io'
-teaser                   : #"/assets/images/1595966589229.jpg"
+teaser                   : #"/assets/images/other/1595966589229.jpg"
 logo                     : #"/assets/images/Josh1.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
