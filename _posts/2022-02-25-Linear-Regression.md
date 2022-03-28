@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Is \"MoreyBall\" \"MoneyBall\"?"
-category: linear regression, EDA, web scraping
+category: Projects
+tags: [Linear Regression, EDA, Web Scraping]
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
