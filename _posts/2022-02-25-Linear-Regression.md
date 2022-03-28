@@ -1,12 +1,12 @@
 ---
 layout: single
 title: "Is \"MoreyBall\" \"MoneyBall\"?"
-category: Projects
+category: linear regression, EDA, web scraping
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 #classes: wide
-tagline: "Does 3-point shooting increase an NBA team's margin of victory?"
+tagline: "A linear regression analysis on what helps an NBA team win games"
 header:
   overlay_image: /assets/images/MoreyBall/header.jpg
   overlay_filter: 0.5
