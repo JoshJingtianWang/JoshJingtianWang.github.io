@@ -2,6 +2,7 @@
 layout: single
 title: "Exploring MTA Turnstiles Data"
 category: Projects
+tags: [EDA]
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
