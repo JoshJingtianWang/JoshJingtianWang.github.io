@@ -4,9 +4,13 @@ main:
     url: https://JoshJingtianWang.github.io
   - title: "Posts"
     url: https://JoshJingtianWang.github.io
-  - title: "Resume"
-    url: https://JoshJingtianWang.github.io
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Resume"
+    url: https://JoshJingtianWang.github.io
