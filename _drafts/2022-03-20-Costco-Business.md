@@ -1,61 +1,38 @@
 ---
 layout: single
-title: "Is \"MoreyBall\" \"MoneyBall\"?"
+title: "Helping Costco Adapt to the Work-From-Home Market"
 category: Projects
-tags: [Linear Regression, EDA, Web Scraping]
+tags: [EDA, Web Scraping, Tableau]
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 #classes: wide
-tagline: "A linear regression analysis on what helps an NBA team win games"
+tagline: "The WFH trend is here to stay, but how can Costco capitalize on it?"
 header:
-  overlay_image: /assets/images/MoreyBall/header.jpg
+  overlay_image: /assets/images/Costco/costco.jpg
   overlay_filter: 0.5
-  caption: "Photo credit: [**Getty Images**](https://www.gettyimages.com/)"
-  teaser: /assets/images/MoreyBall/header.jpg
-  og_image: /assets/images/MoreyBall/header.jpg
+  caption: "Photo credit: [**Unsplash**](https://www.unsplash.com/)"
+  teaser: /assets/images/Costco/costco.jpg
+  og_image: /assets/images/Costco/costco.jpg
 ---
 
-See the presentation slides here([.ppt](https://github.com/JoshJingtianWang/MoreyBall_Linear_Regression/blob/main/slides_josh_wang.pptx)/[.pdf](https://github.com/JoshJingtianWang/MoreyBall_Linear_Regression/blob/main/slides_josh_wang.pdf)).
+See the presentation slides here([.ppt](https://github.com/JoshJingtianWang/Costco-Business/blob/main/presentation_josh_wang.pptx)/[.pdf](https://github.com/JoshJingtianWang/Costco-Business/blob/main/presentation_josh_wang.pdf)).
 
 ## Abstract
-The former general manager of the Houston Rockets, Daryl Morey, was the first GM to apply analytics to basketball. His basketball philosophy (dubbed “Moreyball”) favors three-point field goals and lay-ups over mid-range jumpers. It is evident that “Moreyball” has swept over the league in the past five years with most teams adopting the three pointer-dominant strategy, but it is inconclusive whether “Moreyball” has contributed to team wins. With basketball being one of the biggest sports in the world, it would be important to look at if “Moreyball” is actually “money”.
+As a wholesaler, Costco excels in selling large quantities of selected goods at a cheap price, and because of that, Costco’s shelf space cannot accommodate a large selection of brands. Costco needs to efficiently allocate its limited shelf space to goods specific to the regions of the United States. Particularly, Costco is interested in tapping into the work-from-home (WFH) market and wants to know which region/demographic of the US has an emerging WFH population.
 
 ## Design
-In this project, the Houston Rockets front office has asked us to investigate whether the MoreyBall philosophy contributes to the improve of a team’s net rating. Identifying factors that affect the net rating will improve the winning record and popularity of the team. 
+My work aims to inform Costco on which region of the US they should build new warehouses in, and in the existing warehouses, which ones they should adjust their catalog to accommodate the WFH customers. Adjusting warehouse location and catalog for the WFH customers will help reduce Costco’s shipping cost and attract more customers.
 
 ## The Data
-- NBA Season Advanced Stats (2002-2022)
-https://basketball-reference.com/
-
-Advanced stats include the average number of assists, blocks, rebounds etc. of a team of a season.
-
-- NBA Shot Location Data (2011-2022)
-https://basketball-reference.com/
-
-![image](/assets/images/MoreyBall/playbyplay.jpg)
-
-Shot location data was scraped on a per-game basis from the play-by-play page ([example page](https://www.basketball-reference.com/boxscores/pbp/202110210MIA.html)). Then the shot locations were aggregated by season.
-
-- NBA Playtype Data (2015-2022)
-https://nba.com/
-
-Playtype data include statistics on shots attempted of different shooting style such as:
-
-*Post up shots*
-
-![Post up shots](https://c.tenor.com/1TjcowbBWwEAAAAd/carmelo-anthony-post-up.gif)
-
-*Catch and shoot*
-
-![catch and shoot](https://c.tenor.com/XjN8_nqUmoIAAAAd/giannis-antetokounmpo-giannis.gif)
-
-*Pull up jumpshots*
-
-![Pull up jumpshots](https://c.tenor.com/ZVW3wtwEtMwAAAAd/cj-mc-collum-pull-up.gif)
+•	US Census Pulse Survey Data: 
+https://www.census.gov/programs-surveys/household-pulse-survey/data.html
+•	Costco Warehouse Location data: https://www.costco.com/WarehouseListByStateDisplayView
+•	Google Mobility Data: 
+https://www.google.com/covid19/mobility/
 
 ## Tools
-Data retrieval was be done via BeautifulSoup and Selenium. Linear Regression was done vid Python’s Scikitlearn package. Data cleaning was be done via Python’s pandas package. Data visualization was done with Python’s matplotlib and seaborn packages.
+Costco Warehouse Location data was scraped using BeautifulSoup and Selenium. Data cleaning and visualization were done using Excel and Tableau.
 
 ## Findings
 ### Exploratory data analysis
