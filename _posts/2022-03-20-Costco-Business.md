@@ -37,9 +37,11 @@ Costco Warehouse Location data was scraped using BeautifulSoup and Selenium. Dat
 ## Findings
 * The WFH trend has been growing since before the pandemic. *
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/Applymobility_popdensity/WFH2004-2019?:showVizHome=no&:embed=true&:display_count=true" width = '700' height = '600'></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/Applymobility_popdensity/WFH2004-2019?:showVizHome=no&:embed=true&:display_count=true" width = '700' height = '700' scrolling='yes' ></iframe> 
 
 * During the pandemic, people go to work less, stay at home more, but grocery/retail shopping see little change. *
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/Applymobility_popdensity/GoogleMobility?:showVizHome=no&:embed=true&:display_count=true" width = '700' height = '700' scrolling='yes' ></iframe> 
 
 * The majority of WFH population are above the age of 40. *
 
