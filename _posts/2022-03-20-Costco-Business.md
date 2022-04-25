@@ -49,6 +49,12 @@ Costco Warehouse Location data was scraped using BeautifulSoup and Selenium. Dat
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/Applymobility_popdensity/CensusPulse?:showVizHome=no&:embed=true&:display_count=true" width = '700' height = '900' scrolling='yes' ></iframe> 
 
+*4. Potential in the suburbs*
+
+The higher the rural-urban commuting area (RUCA) code (the lighter the blue), the more rural the area is. It was reported that 50% of urban WFH workers would move to a suburban/rural area (Owl Labs Survey). This opens up new opportunities for Costco to build new warehouses/depots, or revise shipping logistics.
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/Applymobility_popdensity/SuburbCostco?:showVizHome=no&:embed=true&:display_count=true" width = '700' height = '900' scrolling='yes' ></iframe> 
+
 ## Conclusions
 - My project provides Costco with information on the growing demographics of the WFH customers.
 - Costco can accordingly update their catalog and recommender system.
