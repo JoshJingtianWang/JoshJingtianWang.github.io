@@ -47,7 +47,7 @@ Costco Warehouse Location data was scraped using BeautifulSoup and Selenium. Dat
 
 *3. The majority of WFH population are above the age of 40. The majority of WFH population make more than 100k per year.*
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/Applymobility_popdensity/CensusPulse?:showVizHome=no&:embed=true&:display_count=true" width = '700' height = '900' scrolling='yes' ></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/Applymobility_popdensity/CensusPulse?:showVizHome=no&:embed=true&:display_count=true" width = '700' height = '600' scrolling='yes' ></iframe> 
 
 *4. Potential in the suburbs*
 
