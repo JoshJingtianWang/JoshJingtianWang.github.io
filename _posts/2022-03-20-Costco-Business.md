@@ -25,10 +25,10 @@ See the presentation slides here([.pdf](https://github.com/JoshJingtianWang/Cost
 My work aims to inform Costco on which region of the US they should build new warehouses in, and in the existing warehouses, which ones they should adjust their catalog to accommodate the WFH customers. Adjusting warehouse location and catalog for the WFH customers will help reduce Costco’s shipping cost and attract more customers.
 
 ## The Data
-•	US Census Pulse Survey Data: 
+- US Census Pulse Survey Data: 
 https://www.census.gov/programs-surveys/household-pulse-survey/data.html
-•	Costco Warehouse Location data: https://www.costco.com/WarehouseListByStateDisplayView
-•	Google Mobility Data: 
+- Costco Warehouse Location data: https://www.costco.com/WarehouseListByStateDisplayView
+- Google Mobility Data: 
 https://www.google.com/covid19/mobility/
 
 ## Tools

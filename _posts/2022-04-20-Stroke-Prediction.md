@@ -31,11 +31,11 @@ Input variables include physical metrics of patients such as age, BMI, health hi
 The output variable is whether the patient had a stroke (1 or 0).
 
 ## Tools
-•	The dataset was downloaded from here: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
-•	Categorical variables were one-hot encoded. Missing values were filled in by kNNimputing. Interaction features were generated
-•	Undersampling, oversampling, and class weights were used to deal with class imbalance of the dataset.
-•	For probabilistic output, KNN, RandomForest, XGBoost and SVC were calibrated with CalibratedClassifierCV().
-•	RandomSearchCV and GridSearchCV were used to tune the hyperparameters of Logistic Regression, KNN, RandomForest, XGBoost and SVC.
+- The dataset was downloaded from here: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
+- Categorical variables were one-hot encoded. Missing values were filled in by kNNimputing. Interaction features were generated
+- Undersampling, oversampling, and class weights were used to deal with class imbalance of the dataset.
+- For probabilistic output, KNN, RandomForest, XGBoost and SVC were calibrated with CalibratedClassifierCV().
+- RandomSearchCV and GridSearchCV were used to tune the hyperparameters of Logistic Regression, KNN, RandomForest, XGBoost and SVC.
 
 ## Findings
 Because I wanted to use the probabilistic output from my models to assess the stroke risk, I decided to use Brier Skill Score (BSS) as the evaluation metric for my models. BSS is based on Brier Score (BS), which measures the residuals of the probabilistic output of classification models, similar to mean squared error (MSE) in linear regression:
