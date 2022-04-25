@@ -27,7 +27,7 @@ My work allows customers to input simple body metrics such as height, weight, he
 ## The Data
 The dataset was downloaded from here: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset.
 The data contains 11 features and 5110 rows, with 249 positive rows and 4861 negative rows.
-Input variables include physical metrics of patients such as age, BMI, health history.
+Input variables include physical metrics of patients such as age, BMI, health history, smoking habits, occupation.
 The output variable is whether the patient had a stroke (1 or 0).
 
 ## Tools
@@ -39,17 +39,19 @@ The output variable is whether the patient had a stroke (1 or 0).
 
 ## Findings
 Because I wanted to use the probabilistic output from my models to assess the stroke risk, I decided to use Brier Skill Score (BSS) as the evaluation metric for my models. BSS is based on Brier Score (BS), which measures the residuals of the probabilistic output of classification models, similar to mean squared error (MSE) in linear regression:
-*Brier Score*
+
+*Brier Score* (source: magoo.medium.com)
 ![Figure 1](/assets/images/Stroke/brier.png "Figure 1")
-#### (source: magoo.medium.com)
 
 BSS is BS normalized to the baseline:
-*Brier Skill Score*
+
+*Brier Skill Score* (source: wikimedia.org)
 ![Figure 2](/assets/images/Stroke/bss.jpg "Figure 2")
-#### (source: wikimedia.org)
+
 If BSS > 0, the model performs better than the baseline; if BSS = 0, the model performs equally to the baseline; if BSS < 0, the model performs worse than the baseline.
 
 Histogram shows the data has severe class imbalance, with only 5% of the data being of the positive class:
+
 *Class Imbalance*
 ![Figure 3](/assets/images/Stroke/hist.png "Figure 3")
 
@@ -94,6 +96,7 @@ gs_lr = GridSearchCV(lr_pipe,
 ~~~
 
 I trained and compared 5 models:
+
 *Results*
 ![Figure 4](/assets/images/Stroke/results.png "Figure 4")
 SupportVectorClassifier won out.
