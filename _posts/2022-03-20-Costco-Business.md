@@ -24,6 +24,8 @@ See the presentation slides here([.pdf](https://github.com/JoshJingtianWang/Cost
 ## Design
 My work aims to inform Costco on which region of the US they should build new warehouses in, and in the existing warehouses, which ones they should adjust their catalog to accommodate the WFH customers. Adjusting warehouse location and catalog for the WFH customers will help reduce Costco’s shipping cost and attract more customers.
 
+![opportunites](/assets/images/Costco/opportunities.jpg "opportunities")
+
 ## The Data
 - US Census Pulse Survey Data: 
 https://www.census.gov/programs-surveys/household-pulse-survey/data.html
@@ -35,19 +37,21 @@ https://www.google.com/covid19/mobility/
 Costco Warehouse Location data was scraped using BeautifulSoup and Selenium. Data cleaning and visualization were done using Excel and Tableau.
 
 ## Findings
-* The WFH trend has been growing since before the pandemic. *
+*The WFH trend has been growing since before the pandemic.*
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/Applymobility_popdensity/WFH2004-2019?:showVizHome=no&:embed=true&:display_count=true" width = '700' height = '700' scrolling='yes' ></iframe> 
 
-* During the pandemic, people go to work less, stay at home more, but grocery/retail shopping see little change. *
+*During the pandemic, people go to work less, stay at home more, but grocery/retail shopping see little change.*
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/Applymobility_popdensity/GoogleMobility?:showVizHome=no&:embed=true&:display_count=true" width = '700' height = '700' scrolling='yes' ></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/Applymobility_popdensity/GoogleMobility?:showVizHome=no&:embed=true&:display_count=true" width = '700' height = '900' scrolling='yes' ></iframe> 
 
-* The majority of WFH population are above the age of 40. *
+*The majority of WFH population are above the age of 40.*
 
-* The majority of WFH population make more than 100k per year. *
 
-* Potential in the suburban market. *
+
+*The majority of WFH population make more than 100k per year.*
+
+*Potential in the suburban market.*
 
 
 
