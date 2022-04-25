@@ -40,7 +40,7 @@ The output variable is whether the patient had a stroke (1 or 0).
 ## Findings
 Because I wanted to use the probabilistic output from my models to assess the stroke risk, I decided to use Brier Skill Score (BSS) as the evaluation metric for my models. BSS is based on Brier Score (BS), which measures the residuals of the probabilistic output of classification models, similar to mean squared error (MSE) in linear regression:
 *Brier Score*
-![Figure 1](/assets/images/Stroke/brier.jpg "Figure 1")
+![Figure 1](/assets/images/Stroke/brier.png "Figure 1")
 #### (source: magoo.medium.com)
 
 BSS is BS normalized to the baseline:
@@ -51,7 +51,7 @@ If BSS > 0, the model performs better than the baseline; if BSS = 0, the model p
 
 Histogram shows the data has severe class imbalance, with only 5% of the data being of the positive class:
 *Class Imbalance*
-![Figure 3](/assets/images/Stroke/hist.jpg "Figure 3")
+![Figure 3](/assets/images/Stroke/hist.png "Figure 3")
 
 Consequently, I used imblearn's over/under sampling and the built-in class weights hyperparameters of some algorithms to account for the class imbalance.
 
@@ -95,10 +95,10 @@ gs_lr = GridSearchCV(lr_pipe,
 
 I trained and compared 5 models:
 *Results*
-![Figure 4](/assets/images/Stroke/results.jpg "Figure 4")
+![Figure 4](/assets/images/Stroke/results.png "Figure 4")
 SupportVectorClassifier won out.
 
 ## Deployment
-
+WIP
 
 Thank you for reading. The code for my project can be found [here](https://github.com/JoshJingtianWang/Stroke_Prediction). 
