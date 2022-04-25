@@ -16,10 +16,10 @@ header:
   og_image: /assets/images/MTA/header.jpg
 ---
 
-See the presentation slides here([.pdf](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/presentation_josh_wang.pdf)/[.ppt](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/Presentation_josh_wang.pptx)).
-
 ## Abstract
 The goal of this project was to investigate the trend of the New York City metro ridership and factors that contribute to that trend. I worked with turnstile data from the Metropolitan Transportation Authority (MTA), and looked at how the COVID19 pandemic, rideshare services, weather, time of year and time of week potentially affect the subway traffic.
+
+See the presentation slides here([.pdf](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/presentation_josh_wang.pdf)/[.ppt](https://github.com/JoshJingtianWang/NYC-MTA-EDA/blob/main/Presentation_josh_wang.pptx)).
 
 ## Design
 The COVID-19 pandemic has been devastating to many sectors of the society – public transportation being of them. In this project, the MTA has asked us to investigate when and where they can reduce the number of trains to reduce their budget. Identifying factors that affect the subway ridership will help the MTA maintain their service in a more cost-effective manner.

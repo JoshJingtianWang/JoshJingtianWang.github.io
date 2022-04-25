@@ -16,10 +16,10 @@ header:
   og_image: /assets/images/MoreyBall/header.jpg
 ---
 
-See the presentation slides here([.pdf](https://github.com/JoshJingtianWang/MoreyBall_Linear_Regression/blob/main/slides_josh_wang.pdf)/[.ppt](https://github.com/JoshJingtianWang/MoreyBall_Linear_Regression/blob/main/slides_josh_wang.pptx)).
-
 ## Abstract
 The former general manager of the Houston Rockets, Daryl Morey, was the first GM to apply analytics to basketball. His basketball philosophy (dubbed “Moreyball”) favors three-point field goals and lay-ups over mid-range jumpers. It is evident that “Moreyball” has swept over the league in the past five years with most teams adopting the three pointer-dominant strategy, but it is inconclusive whether “Moreyball” has contributed to team wins. With basketball being one of the biggest sports in the world, it would be important to look at if “Moreyball” is actually “money”.
+
+See the presentation slides here([.pdf](https://github.com/JoshJingtianWang/MoreyBall_Linear_Regression/blob/main/slides_josh_wang.pdf)/[.ppt](https://github.com/JoshJingtianWang/MoreyBall_Linear_Regression/blob/main/slides_josh_wang.pptx)).
 
 ## Design
 In this project, the Houston Rockets front office has asked us to investigate whether the MoreyBall philosophy contributes to the improve of a team’s net rating. Identifying factors that affect the net rating will improve the winning record and popularity of the team. 
