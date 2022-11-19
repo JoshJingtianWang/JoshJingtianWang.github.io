@@ -19,6 +19,8 @@ header:
 ## Abstract
 A stroke is a medical condition that cuts off the oxygen supply to the brain. In 2015, stroke was the second most frequent cause of death after coronary artery disease. Due to its deadly and sudden nature, it is important to be able to predict the onset of strokes. Here I propose a classification model to predict the onset of strokes using features that can easily be collected from patients.
 
+Interact with the model [here](https://joshjingtianwang-stroke-prediction-streamlitapp-t9mabj.streamlit.app/).
+
 See the presentation slides here([.pdf](https://github.com/JoshJingtianWang/Stroke_Prediction/blob/main/presentation_josh_wang.pdf)/[.ppt](https://github.com/JoshJingtianWang/Stroke_Prediction/blob/main/presentation_josh_wang.pptx)).
 
 ## Design
@@ -107,6 +109,6 @@ I trained and compared 5 models:
 SupportVectorClassifier won out.
 
 ## Deployment
-WIP
+The model is deployed [here](https://joshjingtianwang-stroke-prediction-streamlitapp-t9mabj.streamlit.app/) as an interactive app.
 
 Thank you for reading. The code for my project can be found [here](https://github.com/JoshJingtianWang/Stroke_Prediction). 
