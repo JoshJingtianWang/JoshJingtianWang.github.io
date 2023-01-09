@@ -1,16 +1,17 @@
 # main links
 main:
+  - title: "About"
+    url: /about/
   - title: "Resume"
     url: https://joshjingtianwang.github.io/resume.pdf
-#  - title: "About"
+
+#  - title: "Posts"
 #    url: https://JoshJingtianWang.github.io
-  - title: "Posts"
-    url: https://JoshJingtianWang.github.io
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "Categories"
-    url: /categories/
+#  - title: "Categories"
+#    url: /categories/
   - title: "Tags"
     url: /tags/
