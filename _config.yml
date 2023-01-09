@@ -113,7 +113,7 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Resume"
       icon: "fas fa-fw fa-paperclip"
-      url: "./resume.pdf"
+      url: "https://joshjingtianwang.github.io/resume.pdf"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
