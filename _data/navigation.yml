@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "About"
-    url: https://JoshJingtianWang.github.io
+  - title: "Resume"
+    url: ./resume.pdf
+#  - title: "About"
+#    url: https://JoshJingtianWang.github.io
   - title: "Posts"
     url: https://JoshJingtianWang.github.io
   # - title: "Sample Collections"
@@ -12,5 +14,3 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-#  - title: "Resume"
-#    url: https://JoshJingtianWang.github.io

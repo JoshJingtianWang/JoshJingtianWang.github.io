@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Josh Wang Portfolio"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Josh Wang"
+name                     : "Josh Jingtian Wang"
 description              : "JW personal website based on minimalmistakes"
 url                      : 'https://joshjingtianwang.github.io/'
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -105,7 +105,7 @@ author:
   name             : "Josh Wang"
   avatar           : "/assets/images/other/Josh1.jpg"
   bio              : "A molecular biologist-turned-data scientist."
-  location         : "Irvine, CA"
+  location         : "Rochester, NY"
   email            :
   links:
     - label: "Email"
@@ -113,7 +113,7 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Resume"
       icon: "fas fa-fw fa-paperclip"
-      url: "https://github.com/JoshJingtianWang"
+      url: "./resume.pdf"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
