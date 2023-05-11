@@ -4,9 +4,11 @@ title: "About"
 
 ---
 
-Hello! I am a molecular biologist-turned-data scientist. I completed my PhD in Molecular Biology and Biochemistry at UC Irvine and the Metis Data Science Bootcamp in 2022. I am currently enrolled in the **MS in Data Science program at University of Rochester**. I will graduate in **December 2023** when I will be looking for full time data scientist or machine learning engineer roles.
+Hello! My name is Josh Wang and I am a molecular biologist-turned-data scientist with a passion for transforming complex data into actionable insights. My journey began at UC Irvine where I completed my PhD in Molecular Biology and Biochemistry, equipping me with an analytical mindset. In 2022, I further refined my skills in data science by completing the Metis Data Science Bootcamp.
 
-Feel free to message or connect with me on [LinkedIn](https://www.linkedin.com/in/joshjingtianwang/).
+Currently, I am pursuing an MS in Data Science at University of Rochester. My expected graduation is in December 2023, after which I am excited to explore full-time opportunities as a data scientist or machine learning engineer.
+
+If you have any questions, opportunities, or simply want to connect, please feel free to message me on [LinkedIn](https://www.linkedin.com/in/joshjingtianwang/).
 
 
 ---
