@@ -105,7 +105,7 @@ author:
   name             : "Josh Jingtian Wang"
   avatar           : "/assets/images/other/Josh1.jpg"
   bio              : "A molecular biologist-turned-data scientist."
-  location         : "Rochester, NY"
+  #location         : "Rochester, NY"
   email            :
   links:
     - label: "Email"
