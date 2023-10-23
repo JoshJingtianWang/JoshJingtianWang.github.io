@@ -9,11 +9,11 @@ toc_icon: "cog"
 #classes: wide
 tagline: "Normal Equation vs Gradient Descent"
 header:
-  overlay_image: /assets/images/lr_scrach/overlay.jpg
+  overlay_image: /assets/images/lr_scratch/overlay.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://www.unsplash.com/)"
-  teaser: /assets/images/lr_scrach/overlay.jpg
-  og_image: /assets/images/lr_scrach/overlay.jpg
+  teaser: /assets/images/lr_scratch/overlay.jpg
+  og_image: /assets/images/lr_scratch/overlay.jpg
 ---
 
 ## Abstract
@@ -25,41 +25,49 @@ Linear regression is a fundamental technique in data science. In this post, I'll
 
 #### 1. Model and cost function
 Suppose a linear model:
-$$ h_\theta(x) = \theta^T x, $$
+
+$$h_\theta(x) = \theta^T x,$$
 
 Which expands to:
+
 $$
 h_\theta(x) = \theta_0 + \theta_1 x_1 + \theta_2 x_2 + ... + \theta_n x_n,
 $$
 
 Loss function (mean squared error):
+
 $$
 J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_\theta(x^{(i)}) - y^{(i)})^2,
 $$
 
 In matrix notation, this becomes:
+
 $$
 J(\theta) = \frac{1}{2} (X\theta - y)^T (X\theta - y)
 $$
 
 Where:
-- $X$ is the design matrix (m samples x n features).
-- $y$ is the column vector of output values.
-- $\theta$ is the column vector of model parameters.
+- $$X$$ is the design matrix (m samples x n features).
+- $$y$$ is the column vector of output values.
+- $$\theta$$ is the column vector of model parameters.
 
 #### 2. Minimize the Cost Function
-To find the value of $\theta$ that minimizes $J(\theta)$, we'll take the derivative with respect to $\theta$ and set it to zero.
+To find the value of $\theta$ that minimizes $$J(\theta)$$, we'll take the derivative with respect to $\theta$ and set it to zero.
 
-Differentiating $J(\theta)$ with respect to $\theta$:
+Differentiating $J(\theta)$ with respect to $$\theta$$:
+
 $$\frac{\partial J(\theta)}{\partial \theta} = X^T (X\theta - y)$$
 
 For minimum, we'll set this to zero:
+
 $$X^T (X\theta - y) = 0$$
 
 Expanding:
+
 $$X^T X \theta = X^T y$$
 
-Now, to solve for $\theta$:
+Now, to solve for $$\theta$$:
+
 $$\theta = (X^T X)^{-1} X^T y$$
 
 This is the **normal equation**!
